@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -37,119 +38,127 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+<aside class="sidebar" data-sidebar style="width: 1000px;"> <!-- Adjust width as needed -->
 
-      <div class="sidebar-info">
+  <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
+    <figure class="avatar-box">
+      <img src="./assets/images/my-avatar2.png" alt="Abdelrahman Mohamed" width="80">
+    </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Abdelrahman Mohamed</h1>
+    <div class="info-content">
+      <h6 class="name" title="Abdelrahman Mohamed"><small>Abdelrahman Mohamed</small></h6>
+      <p class="title">Junior Data Scientist</p>
+    </div>
 
-          <p class="title">Data Scintist</p>
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
         </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:abdelrahman.mohamed1081@gmail.com" class="contact-link">abdelrahman.mohamed1081@gmail.com</a>
+        </div>
+      </li>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+201224977875" class="contact-link">+20 122 4977 875</a>
+        </div>
+      </li>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+          <time datetime="2002-12-12">Dec 12, 2002</time>
+        </div>
+      </li>
 
-      </div>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Giza, EGYPT</address>
+        </div>
+      </li>
 
-      <div class="sidebar-info_more">
+    </ul>
 
-        <div class="separator"></div>
+    <div class="separator"></div>
 
-        <ul class="contacts-list">
+    <ul class="social-list">
 
-          <li class="contact-item">
+      <li class="social-item">
+        <a href="https://github.com/AbdooMohamedd" class="social-link" title="GitHub">
+          <img src="./assets/images/github.png" alt="GitHub" width="24" height="24">
+        </a>
+      </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/abdelrahman-mohamed-167915271/" class="social-link" title="LinkedIn">
+          <img src="./assets/images/linkedin.png" alt="LinkedIn" width="24" height="24">
+        </a>
+      </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+      <li class="social-item">
+        <a href="https://medium.com/@abdelrahman.mohamed1081" class="social-link" title="Medium">
+            <img src="./assets/images/medium.png" alt="Medium" width="24" height="24"> <!-- Replace with your image path -->
+        </a>
+      </li>
 
-              <a href="mailto:richard@example.com" class="contact-link">abdelrahman.mohamed1081@gmail.com</a>
-            </div>
+      <li class="social-item">
+        <a href="https://www.datacamp.com/portfolio/abdelrahmanmohamed1081" class="social-link" title="DataCamp">
+          <img src="./assets/images/datacamp-svgrepo-com.svg" alt="DataCamp" width="24" height="24"> <!-- Replace with your image path -->
+        </a>
+      </li>
 
-          </li>
+      <li class="social-item">
+        <a href="https://www.kaggle.com/abdoomoh" class="social-link" title="Kaggle">
+          <img src="./assets/images/kaggle.png" alt="Kaggle" width="24" height="24"> <!-- Replace with your image path -->
+        </a>
+      </li>
 
-          <li class="contact-item">
+      <li class="social-item">
+        <a href="https://www.upwork.com/freelancers/~01a2420169fb60ba5a" class="social-link" title="Upwork">
+          <img src="./assets/images/pngwing.com.png" alt="Upwork" width="24" height="24"> <!-- Replace with your image path -->
+        </a>
+      </li>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+      <li class="social-item">
+        <a href="https://www.instagram.com/abdo__muhamedd/" class="social-link" title="Instagram">
+          <img src="./assets/images/instagram.png" alt="Instagram" width="24" height="24"> <!-- Replace with your image path -->
+        </a>
+      </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+    </ul>
 
-              <a href="tel:+201224977875" class="contact-link">+20 122 4977 875</a>
-            </div>
+  </div>
 
-          </li>
+</aside>
 
-          <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">dec 12, 2002</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Giza, EGYPT</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <!-- <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li> -->
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/abdo__muhamedd/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
 
 
 
@@ -387,11 +396,10 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Working with Abdelrahman Mohamed was an outstanding experience. He not only met my expectations but exceeded 
+                    them, delivering exactly what I had envisioned and more. His ability to transform complex data into clear, 
+                    actionable insights was impressive, and his attention to detail in creating intuitive and visually appealing 
+                    visualizations made a significant difference. I couldn’t have asked for a better collaborator on this project.
                   </p>
                 </div>
 
@@ -429,7 +437,7 @@
 
               <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <time datetime="2021-06-14">1 Sep, 2024</time>
 
               <div data-modal-text>
                 <p>
@@ -456,7 +464,7 @@
 
           <h3 class="h3 clients-title">Clients</h3>
 
-          <ul class="clients-list has-scrollbar">
+          <!-- <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
               <a href="#">
@@ -494,7 +502,7 @@
               </a>
             </li>
 
-          </ul>
+          </ul> -->
 
         </section>
 
