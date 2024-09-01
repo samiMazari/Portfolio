@@ -304,7 +304,7 @@ article.active {
 }
 
 .skills-item {
-  width: 45%; /* Control the width of each item */
+  width: 30%; /* Control the width of each item */
   margin-bottom: 1px; /* Reduce the vertical spacing between items */
   font-size: 15px;
   font-weight: 600; /* Increase font-weight for extra boldness */
@@ -312,7 +312,7 @@ article.active {
 }
 
 .skills-item:nth-child(odd) {
-  margin-right: 10%; /* Add spacing between columns */
+  margin-right: 15%; /* Add spacing between columns */
 }
 
 .skills-title {
@@ -340,6 +340,31 @@ article.active {
 
 .testimonials-linkedin:hover {
   text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+
+.custom-info-btn {
+  background-color: gold; /* Sets the button background to gold */
+  color: black; /* Sets the text color to black for contrast */
+  border: 2px solid black; /* Adds a black border */
+  padding: 0.5px 1px; /* Reduces padding for a smaller button */
+  border-radius: 1px; /* Rounds the button corners */
+  font-size: 10px; /* Reduces the font size for a smaller button */
+  display: flex;
+  align-items: center; /* Centers the icon and text vertically */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  position: absolute; /* Allows positioning the button relative to its container */
+  top: 10px; /* Adjusts distance from the top */
+  right: 10px; /* Adjusts distance from the right */
+}
+
+.custom-info-btn ion-icon {
+  margin-left: 1px; /* Reduces space between text and icon */
+  color: black; /* Sets the icon color to black */
+}
+
+.custom-info-btn:hover {
+  background-color: #f0e5a1; /* Changes background to a lighter gold on hover */
 }
 
 
@@ -406,10 +431,10 @@ main {
   position: absolute;
   top: -15px;
   right: -15px;
-  border-radius: 0 15px;
-  font-size: 13px;
+  border-radius: 0 25px;
+  font-size: 23px;
   color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  background: #f7e07c; /* Brightened background color */
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -421,10 +446,11 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: #816c2e; /* Brightened background color */
   transition: var(--transition-1);
   z-index: -1;
 }
+
 
 .info_more-btn:hover,
 .info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
