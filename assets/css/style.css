@@ -521,7 +521,37 @@ main {
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
+  .timeline-list {
+    padding-left: 0;
+  }
 
+  .timeline-item {
+    margin-bottom: 1px; /* Reduce vertical distance between items */
+  }
+
+  .timeline-item-title {
+    margin-bottom: 1px; /* Reduce space between title and other elements */
+    color: white; /* Set certificate name to white */
+  }
+
+  .timeline-item span {
+    margin: 2px 0; /* Reduce vertical spacing within each item */
+    color: inherit;
+  }
+
+  .timeline-item p {
+    margin: 2px 0; /* Reduce vertical spacing within each item */
+    color: rgb(208, 200, 200); /* Set description text to white */
+  }
+
+  .timeline-item a {
+    text-decoration: none;
+    color: white; /* Set link color to white */
+  }
+
+  .timeline-item a:hover {
+    text-decoration: underline; /* Optional: underline link on hover */
+  }
 
 
 /*-----------------------------------*\
@@ -898,7 +928,7 @@ main {
 }
 
 .timeline-text {
-  color: var(--light-gray);
+  color: #585555; /* Replace with any color code, e.g., #ffffff for white */
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
