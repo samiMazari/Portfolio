@@ -406,7 +406,14 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 10%; /* Make corners circular */
+  overflow: hidden; /* Ensure the image stays within the circular border */
+  margin-top: -10px; /* Lift the image up */
+}
+
+.avatar-box img {
+  display: block; /* Remove default inline spacing */
+  border-radius: 15%; /* Ensure the image has the same circular shape */
 }
 
 .info-content .name {
