@@ -292,6 +292,35 @@ article.active {
   z-index: -1;
 }
 
+.skills-technologies {
+  margin: 20px 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-item {
+  width: 45%; /* Control the width of each item */
+  margin-bottom: 10px; /* Reduce the vertical spacing between items */
+  font-size: 15px;
+  font-weight: 800; /* Increase font-weight for extra boldness */
+  color: #FFFFFF; /* White text */
+}
+
+.skills-item:nth-child(odd) {
+  margin-right: 10%; /* Add spacing between columns */
+}
+
+.skills-title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700; /* Bold title */
+  color: #FFFFFF; /* White title text */
+}
 
 
 
