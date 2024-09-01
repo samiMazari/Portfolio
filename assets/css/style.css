@@ -323,6 +323,25 @@ article.active {
 }
 
 
+.testimonials-info {
+  display: flex;
+  gap: 10px; /* Adds space between job title and LinkedIn link */
+  align-items: center; /* Aligns items vertically */
+}
+
+.testimonials-job-title {
+  color: white;
+}
+
+.testimonials-linkedin {
+  color: blue; /* Makes the LinkedIn text blue */
+  text-decoration: none; /* Optional: Removes underline from the link */
+}
+
+.testimonials-linkedin:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
 
 
 /*-----------------------------------*\
