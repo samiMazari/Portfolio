@@ -305,9 +305,9 @@ article.active {
 
 .skills-item {
   width: 45%; /* Control the width of each item */
-  margin-bottom: 10px; /* Reduce the vertical spacing between items */
+  margin-bottom: 1px; /* Reduce the vertical spacing between items */
   font-size: 15px;
-  font-weight: 800; /* Increase font-weight for extra boldness */
+  font-weight: 600; /* Increase font-weight for extra boldness */
   color: #FFFFFF; /* White text */
 }
 
