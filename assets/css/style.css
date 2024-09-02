@@ -334,7 +334,7 @@ article.active {
 }
 
 .testimonials-linkedin {
-  color: blue; /* Makes the LinkedIn text blue */
+  color: rgb(48, 132, 228); /* Makes the LinkedIn text blue */
   text-decoration: none; /* Optional: Removes underline from the link */
 }
 
