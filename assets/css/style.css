@@ -304,15 +304,15 @@ article.active {
 }
 
 .skills-item {
-  width: 30%; /* Control the width of each item */
+  width: 40%; /* Control the width of each item */
   margin-bottom: 1px; /* Reduce the vertical spacing between items */
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600; /* Increase font-weight for extra boldness */
   color: #FFFFFF; /* White text */
 }
 
 .skills-item:nth-child(odd) {
-  margin-right: 15%; /* Add spacing between columns */
+  margin-right: 20%; /* Add spacing between columns */
 }
 
 .skills-title {
