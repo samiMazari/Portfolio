@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages with Secret
+name: Deploy Website
 
 on:
   push:
@@ -6,27 +6,16 @@ on:
       - main
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
-    - name: Set up Jekyll (or your static site generator)
+    - name: Deploy to server
+      env:
+        FORMSPREE_URL: ${{ secrets.FORMSPREE_URL }}
       run: |
-        gem install bundler jekyll
-        bundle install
-
-    - name: Build the website
-      run: bundle exec jekyll build --destination ./_site
-
-    - name: Replace placeholder with Formspree URL
-      run: |
-        sed -i "s|FORMSPREE_URL|${{ secrets.FORMSPREE_URL }}|" ./index.html  # Correct file path for root-level index.html
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        echo "Deploying to $FORMSPREE_URL"
+        # Add your deployment script here
