@@ -23,7 +23,7 @@ jobs:
 
     - name: Replace placeholder with Formspree URL
       run: |
-        sed -i 's|FORMSPREE_URL|${{ secrets.FORMSPREE_URL }}|' ./_site/index.html # Replace index.html path with your actual file where form exists.
+        sed -i "s|FORMSPREE_URL|${{ secrets.FORMSPREE_URL }}|" ./index.html  # Correct file path for root-level index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
