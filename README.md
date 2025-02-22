@@ -15,13 +15,13 @@ To install **vCard**, follow these steps:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/AbdooMohamedd/AbdooMohamedd.github.io.git
+sudo git clone https://github.com/samimazari/Portfolio.github.io.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/AbdooMohamedd/AbdooMohamedd.github.io.git
+git clone https://github.com/samimazari/Portfolio.github.io.git
 ```
 
 ## Contact
