@@ -1,4 +1,4 @@
-# Abdelrahman Mohamed - Personal portfolio
+# Mohamed Sami Mazari - Personal portfolio
 
 fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
@@ -26,7 +26,7 @@ git clone https://github.com/AbdooMohamedd/AbdooMohamedd.github.io.git
 
 ## Contact
 
-If you want to contact me you can reach me at [LinkedIn](https://www.linkedin.com/in/abdelrahman-mohamed-167915271/).
+If you want to contact me you can reach me at [LinkedIn](https://www.linkedin.com/in/mohamed-sami-mazari/).
 
 ## License
 
