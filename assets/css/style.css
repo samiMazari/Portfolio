@@ -343,7 +343,7 @@ article.active {
 
 
 .custom-info-btn {
-  background-color: gold; /* Sets the button background to gold */
+  background-color: #9c27b0; /* Sets the button background to gold */
   color: black; /* Sets the text color to black for contrast */
   border: 2px solid black; /* Adds a black border */
   padding: 0.5px 1px; /* Reduces padding for a smaller button */
