@@ -20,7 +20,9 @@
   /**
    * colors
    */
-
+  --green: #4caf50;    /* vert */
+  --blue: #2196f3;     /* bleu */
+  --violet: #8e44ad;   /* violet */
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
